@@ -1,0 +1,9 @@
+canvas {
+    position: fixed;
+    z-index: 2;
+    pointer-events: none;
+}
+  
+body {
+    z-index:1;
+}
