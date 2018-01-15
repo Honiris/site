@@ -61,9 +61,12 @@
 				var playlist = Array("1.mp3", "2.mp3", "te.mp3", "3.mp3");
 				var randomSong = playlist[Math.floor(Math.random()*playlist.length)];
 				var audioElement = document.createElement('audio');
-				audioElement.loop=true;
+				audioElement.loop=false
 				audioElement.setAttribute('src', "sound/" + randomSong);
 				audioElement.play()
 			</script>
+			<head>
+				<link rel="shortcut icon" type="image/x-icon" href="images/truc.ico">
+			</head>
 	</body>
 </html>
